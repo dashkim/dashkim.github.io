@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,8 +9,24 @@ body {
 header .banner {
     background-color: #d1e7dd;
     color: #333;
-    text-align: center;
-    padding: 20px 0;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .banner .headshot {
+    float: right;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+header .banner .header-text {
+    max-width: 70%;
 }
 
 header .banner h1 {
@@ -38,6 +55,10 @@ section h2 {
 
 section p, section ul {
     margin: 0 0 10px;
+}
+
+section ul {
+    padding-left: 20px;
 }
 
 footer {
